@@ -25,7 +25,7 @@ import os
 
 def prepare_data():
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    sciezka_do_pliku = os.path.join(current_dir, "..", "files", "Mens-Volleyball-PlusLiga-2008-2023.csv")
+    sciezka_do_pliku = os.path.join(current_dir, "..", "data", "raw" ,"Mens-Volleyball-PlusLiga-2008-2023.csv")
 
     pd.set_option("display.max_columns", None)
 
