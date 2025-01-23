@@ -2,7 +2,7 @@ import torch
 from torch import nn
 from torchmetrics import Accuracy
 from sklearn.model_selection import train_test_split
-from data import prepare_data
+from data_preprocessing import prepare_data
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
